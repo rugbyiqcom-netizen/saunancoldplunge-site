@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sauna ’n Cold Plunge</title>
+<meta name="description" content="A session timer for sauna and cold-water contrast therapy on Apple Watch and Garmin. One press each time you move.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --ground:#0E1118; --cream:#F5F1EA; --heat:#F08A3C; --cold:#5FB4FF; --muted:#9AA3B2; --card:#161A22; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--ground); color:var(--cream); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; line-height:1.6; padding:48px 16px 64px; }
+  .wrap { max-width:720px; margin:0 auto; text-align:center; }
+  .hero img { width:min(60vw,300px); display:block; margin:0 auto 20px; }
+  h1 { font-size:clamp(30px,7vw,44px); font-weight:700; line-height:1.15; }
+  h1 .h { color:var(--heat); } h1 .c { color:var(--cold); }
+  .tag { color:var(--muted); font-size:18px; margin:12px 0 28px; }
+  .stores { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-bottom:36px; }
+  .stores a { background:var(--card); border:1px solid #232938; color:var(--cream); padding:12px 18px; border-radius:12px; font-size:15px; }
+  .stores a:hover { border-color:var(--cold); }
+  .how { text-align:left; background:var(--card); border-radius:14px; padding:20px 22px; margin:0 auto 28px; }
+  .how h2 { font-size:17px; margin-bottom:10px; }
+  .how li { color:#D8D3CA; margin:6px 0 6px 20px; }
+  .small { color:var(--muted); font-size:13px; }
+  nav { margin-top:36px; } nav a { color:var(--cold); margin:0 10px; text-decoration:none; font-size:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <img src="hero-mark.png" alt="">
+    <h1><span class="h">sauna</span> ’n <span class="c">cold plunge</span></h1>
+    <p class="tag">Hot. Cold. One press each time you move.</p>
+  </div>
+  <div class="stores">
+    <a href="https://apps.garmin.com/apps/c17f0d5b-ad08-4755-a8b0-69f5ee61387b">Garmin Connect IQ</a>
+    <a href="support.html">Apple Watch: coming to the App Store</a>
+  </div>
+  <div class="how">
+    <h2>What it does</h2>
+    <ul>
+      <li>Press Start when you walk in. Press Next each time you move: Heat, Shower, Water, Breathe, Rest.</li>
+      <li>Times every round, counts your cycles, shows your heart rate in the heat and how fast it settles in the cold.</li>
+      <li>Saves the whole session as a workout in Apple Health or Garmin Connect.</li>
+      <li>Any order, any length. Sauna and a cold shower is a session. Sauna and the sea is a session.</li>
+    </ul>
+  </div>
+  <p class="small">Free. No account, no ads, no data leaves your watch. Not a medical device.</p>
+  <nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="mailto:saunancoldplunge@gmail.com">Contact</a></nav>
+</div>
+</body>
+</html>
